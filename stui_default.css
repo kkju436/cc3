@@ -41,6 +41,8 @@ a:focus,a:hover,a:active{ text-decoration:none; color: #FF9900;}
 .stui-header__logo{ width: 282px; margin-top:15px}
 .stui-header__logo .logo{display:block; width:282px; height:60px; background:url(//ae02.alicdn.com/kf/H8ccadea34d2f47d580fef924484cfd4cw.jpg) no-repeat;background-position:50% 50%;background-size:cover}
 .stui-header__menu{background-color: #333; color: #fff;}
+.stui-header__menu:before{ content: ""; position: absolute; top: -10px; right: 0; width:0; height:0; border-width: 10px 0 0 10px; border-style:solid; border-color: transparent transparent transparent #ccc;}
+.stui-header__menu:after{ content: ""; position: absolute; top: -10px; left: 0; width:0; height:0; border-width: 0 0 10px 10px; border-style:solid; border-color:transparent transparent  #ccc transparent;}
 .stui-header__menu li{float:left;}
 .stui-header__menu li a{display:inline-block; padding: 15px 25px; font-size:15px; color: #fff;}
 .stui-header__menu li.active a{ background-color: #222;}
