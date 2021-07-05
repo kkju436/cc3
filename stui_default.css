@@ -2,7 +2,7 @@
 
 /* all */
 html{height: 100%;}
-body{ margin: 0; font-family:'Helvetica Neue', 'STHeiti', '微软雅黑', 'Microsoft YaHei', Helvetica,Arial,sans-serif; font-size:14px; line-height: 140%; color: #666;}
+body{ margin: 0; font-family:'Helvetica Neue', 'STHeiti', '微软雅黑', 'Microsoft YaHei', Helvetica,Arial,sans-serif; font-size:14px; line-height: 140%; color: #e8e8e9; background-color:#606061}
 ul, ol, li,dt,dd{margin:0; padding:0; list-style:none;}
 dl{margin-top:0; margin-bottom:0}
 p{margin:0 0 10px;}
