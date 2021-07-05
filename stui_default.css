@@ -14,8 +14,8 @@ input:focus{border-color:#FF9900; -webkit-box-shadow:inset 0 1px 1px rgba(255,13
 /* container */
 *{-webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box}
 :after,:before{-webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box}
-.container { width: 1080px; position: relative; padding-right: 15px; padding-left: 15px; margin: 0px auto 0;}
-.row{position: relative; margin-right: -15px; margin-left: -15px; background-color: #fff; border-radius: 5px; border: 1px solid #eee;}
+.container { width: 1080px; position: relative; margin: 0px auto 0;}
+.row{position: relative; margin-right: -15px; margin-left: -15px; background-color: #fff; border: 0px solid #eee;}
 .container:before,.container:after,.row:before,.row:after,.clearfix:before, .clearfix:after{ display: table; content: " "; clear: both;}
 
 /* text */
@@ -78,9 +78,9 @@ a:focus,a:hover,a:active{ text-decoration:none; color: #FF9900;}
 .stui-pannel__head .title{ margin: 0; }
 
 /* vodlist */
-.stui-vodlist__item{ position: relative; float: left; padding: 10px; width: 16.666666%;}
+.stui-vodlist__item{ position: relative; float: left; padding: 10px; width: 16.666666%; }
 .stui-vodlist__item.active{ width: 33.333333%;}
-.stui-vodlist__thumb{ position: relative; display: block; padding-top: 50%; background: url(//ae02.alicdn.com/kf/H54c7de998724474da3ebca481b4d45b1J.jpg) no-repeat; background-position: 50% 50%; background-size: cover;}
+.stui-vodlist__thumb{ border-radius: 5px 5px 5px 5px; position: relative; display: block; padding-top: 50%; background: url(//ae02.alicdn.com/kf/H54c7de998724474da3ebca481b4d45b1J.jpg) no-repeat; background-position: 50% 50%; background-size: cover;}
 .stui-vodlist__thumb.active{ padding-top: 50%; background: url(../img/load_w.gif) no-repeat; background-position: 50% 50%; background-size: cover;}
 .stui-vodlist__thumb .play{display: none; position: absolute; top: 0; z-index: 1; width: 100%; height: 100%; background: rgba(0,0,0,0.1) url(//p.pstatp.com/origin/fe4900036af636030211) center no-repeat;}
 .stui-vodlist__thumb:hover .play{ display: block;}
